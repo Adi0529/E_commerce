@@ -17,32 +17,40 @@ const productSchema = new mongoose.Schema(
         description: {
             type: String,
             required: true,
+            trim: true,
         },
 
+        // Reference Category
         category: {
-            type: String,
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Category",
             required: true,
         },
 
+        // Reference Brand
         brand: {
-            type: String,
-            default: "",
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Brand",
+            required: true,
         },
 
         price: {
             type: Number,
             required: true,
+            min: 0,
         },
 
         discountPrice: {
             type: Number,
             default: 0,
+            min: 0,
         },
 
         stock: {
             type: Number,
             required: true,
             default: 0,
+            min: 0,
         },
 
         thumbnail: {
@@ -65,11 +73,23 @@ const productSchema = new mongoose.Schema(
         rating: {
             type: Number,
             default: 0,
+            min: 0,
+            max: 5,
         },
 
         totalReviews: {
             type: Number,
             default: 0,
+        },
+
+        sold: {
+            type: Number,
+            default: 0,
+        },
+
+        isFeatured: {
+            type: Boolean,
+            default: false,
         },
 
         isActive: {

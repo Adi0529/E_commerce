@@ -16,7 +16,12 @@ const storage = multer.diskStorage({
         else if (file.fieldname === "images") {
             cb(null, "uploads/products/images");
         }
-
+        else if(file.fieldname === "categoryImage"){
+            cb(null,"uploads/products/category")
+        }
+        else if(file.fieldname === "brandLogo"){
+            cb(null,"uploads/products/brand")
+        }
         else {
             cb(new Error("Invalid field name"));
         }

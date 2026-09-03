@@ -1,0 +1,36 @@
+.navbar .nav-link{
+    transition:0.3s;
+    border-radius:8px;
+    padding:8px 14px !important;
+}
+
+.navbar .nav-link:hover{
+    background:rgba(255,255,255,.15);
+    color:#ffc107 !important;
+}
+
+.navbar-brand{
+    letter-spacing:1px;
+}
+
+.dropdown-menu{
+    min-width:220px;
+}
+
+.dropdown-item{
+    transition:.25s;
+}
+
+.dropdown-item:hover{
+    background:#0d6efd;
+    color:white;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color:#ffc107;
+}
+
+.btn-warning{
+    font-weight:600;
+}

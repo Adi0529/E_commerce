@@ -56,11 +56,11 @@ const register = async (req, res) => {
 const login = async (req, res) => {
 
     try {
-        const { email, password } = req.body;
+        const {email, password} = req.body;
         if (!email || !password) {
             return res.status(400).send({ success: false, msg: "Please enter email and password" });
         }
-        const user = await User.findOne({ email });
+        const user = await User.findOne({email:email});
         if (!user) {
             return res.status(404).send({ success: false, msg: "User not found" });
         }
@@ -265,7 +265,7 @@ const getAllUsers = async (req, res) => {
 
     try {
 
-        const users = await User.find({role: "User"}).select("-password");
+        const users = await User.find().select("-password");
 
         res.status(200).send({success: true,totalUsers: users.length,users});
 

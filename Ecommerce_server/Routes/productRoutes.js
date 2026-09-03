@@ -18,9 +18,9 @@ router.get("/:id",productController.getProductById);
 router.get("/search/:keyword",productController.searchProducts);
 
 // Get products by category
-router.get("/category/:category",productController.getProductsByCategory);
+router.get("/category/:categoryId",productController.getProductsByCategory);
 
-
+//router.get("/brand/:brandId")
 // =======================================================
 // VENDOR ROUTES
 // =======================================================

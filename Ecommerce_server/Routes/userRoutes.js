@@ -8,7 +8,6 @@ const { auth, admin } = require("../middleware/auth");
 const upload = require("../middleware/uploads");
 
 
-// ================= Authentication =================
 
 // Register User
 router.post("/register",upload.single("profileImage"),userController.register);
