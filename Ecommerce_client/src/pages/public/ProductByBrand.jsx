@@ -51,7 +51,7 @@ const ProductByBrand = () => {
             <div className="text-center mb-5">
 
                 <img
-                    src={`http://localhost:5006/uploads/products/brand/${brand?.brandLogo}`}
+                    src={`https://e-commerce-2-u41a.onrender.com/uploads/products/brand/${brand?.brandLogo}`}
                     alt=""
                     style={{
                         width: "120px",

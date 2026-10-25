@@ -155,7 +155,7 @@ const Profile = () => {
 
                                     <img
 
-                                        src={`http://localhost:5006/${user.profileImage}`}
+                                        src={`https://e-commerce-2-u41a.onrender.com/${user.profileImage}`}
 
                                         alt=""
 

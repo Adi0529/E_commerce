@@ -213,7 +213,7 @@ const BrandProducts = () => {
 
                                 variant="top"
 
-                                src={`http://localhost:5006/${brand.brandLogo}`}
+                                src={`https://e-commerce-2-u41a.onrender.com/${brand.brandLogo}`}
 
                                 style={{
 

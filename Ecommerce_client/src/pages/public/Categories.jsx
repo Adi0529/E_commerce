@@ -193,7 +193,7 @@ const Categories = () => {
 
                                     <Card.Img
                                         variant="top"
-                                        src={`http://localhost:5006/uploads/products/category/${category.categoryImage}`}
+                                        src={`https://e-commerce-2-u41a.onrender.com/uploads/products/category/${category.categoryImage}`}
                                         style={{
                                             height: "220px",
                                             objectFit: "cover"

@@ -27,7 +27,7 @@ const CategoryCard = ({ category }) => {
                 >
 
                     <Card.Img
-                        src={`http://localhost:5006/uploads/products/category/${category.categoryImage}`}
+                        src={`https://e-commerce-2-u41a.onrender.com/uploads/products/category/${category.categoryImage}`}
                         style={{
                             width: "100%",
                             height: "100%",

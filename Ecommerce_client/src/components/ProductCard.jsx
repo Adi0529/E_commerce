@@ -64,7 +64,7 @@ const ProductCard = ({ product }) => {
 
                     variant="top"
 
-                    src={`http://localhost:5006/${product.thumbnail}`}
+                    src={`https://e-commerce-2-u41a.onrender.com/${product.thumbnail}`}
 
                     style={{
 

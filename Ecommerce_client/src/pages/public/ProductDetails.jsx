@@ -146,7 +146,7 @@ const ProductDetails = () => {
 
                             <img
 
-                                src={`http://localhost:5006/${selectedImage}`}
+                                src={`https://e-commerce-2-u41a.onrender.com/${selectedImage}`}
 
                                 className="img-fluid rounded"
 
@@ -174,7 +174,7 @@ const ProductDetails = () => {
 
                             <img
 
-                                src={`http://localhost:5006/${product.thumbnail}`}
+                                src={`https://e-commerce-2-u41a.onrender.com/${product.thumbnail}`}
 
                                 className={`img-fluid rounded border p-1 ${selectedImage === product.thumbnail ? "border-primary" : ""}`}
 
@@ -220,7 +220,7 @@ const ProductDetails = () => {
 
                                         <img
 
-                                            src={`http://localhost:5006/${img}`}
+                                            src={`https://e-commerce-2-u41a.onrender.com/${img}`}
 
                                             className={`img-fluid rounded border p-1 ${selectedImage === img ? "border-primary" : ""}`}
 
@@ -1208,7 +1208,7 @@ const ProductDetails = () => {
 
                                         src={
 
-                                            `http://localhost:5006/${item.thumbnail}`
+                                            `https://e-commerce-2-u41a.onrender.com/${item.thumbnail}`
 
                                         }
 

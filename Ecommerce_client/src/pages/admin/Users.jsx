@@ -232,7 +232,7 @@ const Users = () => {
                                             <img
 
                                                 src={
-                                                    user.profileImage? `http://localhost:5006/${user.profileImage}`: "/default-user.png"
+                                                    user.profileImage? `https://e-commerce-2-u41a.onrender.com/${user.profileImage}`: "/default-user.png"
                                                 }
 
                                                 alt=""

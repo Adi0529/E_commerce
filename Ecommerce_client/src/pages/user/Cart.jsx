@@ -186,7 +186,7 @@ const Cart = () => {
 
                                                         <img
 
-                                                            src={`http://localhost:5006/${item.product.thumbnail}`}
+                                                            src={`https://e-commerce-2-u41a.onrender.com/${item.product.thumbnail}`}
 
                                                             alt=""
 

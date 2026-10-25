@@ -265,7 +265,7 @@ const Vendors = () => {
 
                                             <img
 
-                                                src={`http://localhost:5006/${vendor.profileImage}`}
+                                                src={`https://e-commerce-2-u41a.onrender.com/${vendor.profileImage}`}
 
                                                 alt=""
 

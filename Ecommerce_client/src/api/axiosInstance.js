@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5006/",
+  baseURL: "https://e-commerce-2-u41a.onrender.com/",
 });
 axiosInstance.interceptors.request.use( 
     (config) => {

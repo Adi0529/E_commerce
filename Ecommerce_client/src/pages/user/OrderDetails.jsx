@@ -183,7 +183,7 @@ const OrderDetails = () => {
 
                                                     <img
 
-                                                        src={`http://localhost:5006/${item.thumbnail}`}
+                                                        src={`https://e-commerce-2-u41a.onrender.com/${item.thumbnail}`}
 
                                                         alt=""
 
