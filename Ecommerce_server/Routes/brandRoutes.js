@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-const brandController = require("../controllers/brandController");
+const brandController = require("../Controllers/brandController");
 
 const { auth, admin } = require("../middleware/auth");
 
